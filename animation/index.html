@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .wrapper {
+        max-width: 320px;
+        margin: 0 auto;
+      }
+
+      .wrapper div {
+        background-color: orange;
+        margin-bottom: 10px;
+        height: 50px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="item1">Animation runs sequentially</div>
+      <div class="item2">Animation queue clears every time clicked</div>
+      <div class="item3">
+        Animation in queue using animation() (right click)
+      </div>
+      <div class="item4">Animation runs together using animation()</div>
+      <div class="item5">Animation runs only once</div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
